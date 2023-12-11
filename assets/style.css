@@ -19,10 +19,17 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    height: 30px;
 }
 
 [class*="col-"] {
     flex: 0 0 auto;
+}
+
+
+/* colore background delle col */
+.black{
+    background-color:black ;
 }
 
 /* 12 System */
